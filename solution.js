@@ -1,7 +1,5 @@
 // You must RETURN your result in each function!
 
-let sampleArr = [1,2,3,4,5]
-
 function printNums(nums) {
   /**
    *  Using .forEach, add each number in the nums array to a new array.
@@ -12,6 +10,7 @@ function printNums(nums) {
   return newArray
 }
 
+// let sampleArr = [1,2,3,4,5]
 //console.log(printNums(sampleArr))
 
 function returnSums(nums) {
@@ -25,7 +24,7 @@ function returnSums(nums) {
   return newArray
 }
 
-console.log(returnSums(sampleArr))
+//console.log(returnSums(sampleArr))
 
 function returnTotal(objs) {
   /**
@@ -102,8 +101,8 @@ function joinStrings(strings) {
   return strings.reduce((newStr, stringsChar) => {return newStr+stringsChar},"")
 }
 
-const strings = ['h', 'e', 'l', 'l', 'o']
-console.log(joinStrings(strings))
+// const strings = ['h', 'e', 'l', 'l', 'o']
+// console.log(joinStrings(strings))
 
 //Bonus
 function sortObjectsByValue(objs) {
